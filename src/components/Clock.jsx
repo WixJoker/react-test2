@@ -1,29 +1,29 @@
-import { Component } from 'react';
+// import { Component } from 'react';
 
-class Clock extends Component {
+// class Clock extends Component {
     
-    state = {
-        time: new Date().toLocaleTimeString(),
-    }
+//     state = {
+//         time: new Date().toLocaleTimeString(),
+//     }
 
-intervalid = null
+// intervalid = null
 
-    componentDidMount() {
-        this.intervalid = setInterval(() => this.setState({time: new Date().toLocateTimeString()}), 1000,)
-    }
+//     componentDidMount() {
+//         this.intervalid = setInterval(() => this.setState({time: new Date().toLocateTimeString()}), 1000,)
+//     }
 
-    componentWillUnmount() {
-        clearInterval(this.intervalid)
-    }
+//     componentWillUnmount() {
+//         clearInterval(this.intervalid)
+//     }
 
-    // shouldComponentUpdate(nextProps, nestState) {
-    //     return nextState.activeId !== this.state.activeId
-    // }
+//     // shouldComponentUpdate(nextProps, nestState) {
+//     //     return nextState.activeId !== this.state.activeId
+//     // }
 
-    render() {
-        return <div>{this.state.time}</div>
-    }
+//     render() {
+//         return <div>{this.state.time}</div>
+//     }
     
-}
+// }
 
-export default Clock
+// export default Clock

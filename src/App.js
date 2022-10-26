@@ -1,6 +1,7 @@
 import { Component } from "react";
 import Modal from "./components/Modal";
-import Clock from './components/Clock'
+// import Clock from './components/Clock'
+import SignupForm from "./components/SignupForm";
 
 class App extends Component {
   state = {
@@ -33,7 +34,8 @@ class App extends Component {
             <p>Change content</p>
           </Modal>
         )}
-        <Clock />
+        {/* <Clock /> */}
+        <SignupForm />
       </>
     );
   }
